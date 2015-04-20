@@ -1,0 +1,29 @@
+<% include header %>
+
+<!--		
+====================================
+        Light Data Project
+=====================================
+-->	
+<script src="/js/chart_js/Chart.js"></script>
+<script src="/js/lightGraph.js"></script> <!-- This generates the graph-->
+
+<div class="row">
+	<div class="small-12 columns">
+		<p> </p>
+	</div>
+	<div class="small-12 columns">
+		<h1 class="text-center" style="color:#412686">Light: Data Gathering</h1>
+	</div>
+	<div class="small-12 columns">
+		<h3 class="text-center"><strong>A full day of measurements of light inside a room</strong></h3>
+	</div>
+    <div class="small-12 columns">
+        <canvas id="lightChart" width="400" height="400"></canvas>
+        <p> View the raw data <a href="https://data.sparkfun.com/streams/2JQ9R99NaWU9EpjRWJ6n">here</a></p>
+    </div>
+</div>
+
+<p class="text-center">----------------------------------------</p>
+
+<% include footer  %>
